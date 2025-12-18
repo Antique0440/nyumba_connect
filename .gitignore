@@ -4,21 +4,21 @@
 *.cache
 
 # Configuration files with sensitive data
-nyumba_connect/includes/config.local.php
+includes/config.local.php
 
 # Upload directories (keep structure but ignore uploaded files)
-nyumba_connect/assets/uploads/cvs/*
-!nyumba_connect/assets/uploads/cvs/.gitkeep
-nyumba_connect/assets/uploads/resources/*
-!nyumba_connect/assets/uploads/resources/.gitkeep
+assets/uploads/cvs/*
+!assets/uploads/cvs/.gitkeep
+assets/uploads/resources/*
+!assets/uploads/resources/.gitkeep
 
 # Session files
-nyumba_connect/sessions/*
-!nyumba_connect/sessions/.gitkeep
+sessions/*
+!sessions/.gitkeep
 
 # Log files
-nyumba_connect/logs/*.log
-!nyumba_connect/logs/.gitkeep
+logs/*.log
+!logs/.gitkeep
 
 # IDE and editor files
 .vscode/
